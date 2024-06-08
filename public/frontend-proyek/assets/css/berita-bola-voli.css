@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+nav .nav-link,
+nav .dropdown-item,
+nav #dropdown,
+nav #home,
+nav #faq {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+    margin-right: 100px;
+}
+
+nav #home:hover,
+nav #dropdown:hover {
+    color: rgb(20, 89, 238);
+}
+
+nav img {
+    margin-left: 30px;
+}

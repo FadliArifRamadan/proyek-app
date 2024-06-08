@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+nav .nav-link,
+nav .dropdown-item,
+nav #dropdown,
+nav #home,
+nav #faq {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+    margin-right: 100px;
+}
+
+nav #home:hover,
+nav #dropdown:hover {
+    color: rgb(20, 89, 238);
+}
+
+nav img {
+    margin-left: 30px;
+}
+
+/* profil */
+#profil-ketua #card-photo {
+    width: 250px;
+    height: 320px;
+    margin-top: 40px;
+    align-items: center;
+    padding: 10px 10px 10px;
+    border-radius: 10px;
+}
+
+#profil-ketua #card-photo img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#profil-ketua .card-body-photo {
+    display: flex;
+    column-gap: 10px;
+    color: rgb(20, 89, 238);
+}
+
+#profil-ketua .card-body-photo:hover {
+    color: rgb(230, 52, 52);
+}
+
+#profil-ketua .content h5 {
+    margin-top: 20px;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#profil-ketua .content i {
+    margin-top: 20px;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#profil-ketua .card-text {
+    margin-top: 40px;
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(247, 242, 242);
+    border-radius: 10px;
+    height: 320px;
+    border: none;
+}
+
+#profil-ketua .card-text h5 {
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#profil-ketua .card-body-text {
+    margin-top: 20px;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: justify;
+}
+
+#profil-ketua .content a {
+    text-decoration: none;
+}
+
+/* berita */
+#berita .content-berita #card-berita {
+    height: 460px;
+    width: 305px;
+}
+
+#berita .content-berita #card-berita img {
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+}
+
+#berita .card-body-berita {
+    display: flex;
+    column-gap: 10px;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#berita .card-body-berita i {
+    margin-top: 2px;
+    padding-left: 10px;
+}
+
+#berita .card a {
+    text-decoration: none;
+    color: rgb(102, 99, 99);
+}
+
+#berita .card-text-berita {
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 12px;
+    text-align: justify;
+    color: rgb(158, 156, 156);
+}
+
+#berita .card-title {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 10px;
+    padding-right: 12px;
+}
+
+#berita .card-title:hover {
+    color: rgb(20, 89, 238);
+}
+
+#berita .content-berita .card {
+    border: none;
+}
+
+#berita .col-auto {
+    text-align: center;
+}
+
+/* footer */
+#footer .third-title li {
+    color: white;
+}
+
+#footer .footer-down {
+    background-color: #111;
+}
+
+/* Android */
+@media screen and (max-width: 480px) {
+    #navbar img {
+        width: 60%;
+    }
+
+    nav .nav-link,
+    nav .dropdown-item,
+    nav #dropdown,
+    nav #home,
+    nav #faq {
+        font-family: 'poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        color: black;
+    }
+
+    .carousel-img {
+        height: 350px;
+    }
+
+    #profil-ketua .content-title h3 {
+        text-align: center;
+    }
+
+    #profil-ketua #card-photo {
+        margin-left: 5px;
+        width: 325px;
+        height: 430px;
+    }
+
+    #profil-ketua #card-photo img {
+        margin-top: 20px;
+        width: 300px;
+        height: 280px;
+    }
+
+    #profil-ketua .content h5 {
+        font-family: 'poppins', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    #profil-ketua .content i,
+    #profil-ketua .card-text h5 {
+        font-family: 'poppins', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    #profil-ketua .card-text {
+        height: 700px;
+    }
+
+    #berita .content-title-berita h3 {
+        text-align: center;
+    }
+
+    #berita .card,
+    #berita .card-text-berita {
+        margin-left: 10px;
+    }
+
+    #footer .footer-top .second-title h5,
+    #footer .footer-top .third-title h5 {
+        margin-top: 20px;
+    }
+}
+
+/* @media screen and (max-width: 990px) {
+    #navbar img {
+        width: 80%;
+    }
+
+    nav .nav-link,
+    nav .dropdown-item,
+    nav #dropdown,
+    nav #home,
+    nav #faq {
+        font-family: 'poppins', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        color: black;
+    }
+
+    #profil-ketua .content-title h3 {
+        text-align: center;
+    }
+
+    #profil-ketua .card-text {
+        margin-left: 100px;
+        width: 400px;
+        height: 630px;
+    }
+
+    #profil-ketua .card-text h5 {
+        font-family: 'poppins', sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    #berita .card {
+        width: 250px;
+        height: 330px;
+    }
+
+    #berita .content-berita #card-berita img {
+        width: 250px;
+    }
+
+    #berita .card-text-berita {
+        font-family: 'poppins', sans-serif;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 500;
+        padding-left: 10px;
+        padding-right: 12px;
+        width: 250px;
+        text-align: justify;
+        color: rgb(158, 156, 156);
+    }
+
+    #berita .card-title {
+        font-family: 'poppins', sans-serif;
+        font-size: 5px;
+        font-style: normal;
+        font-weight: 800;
+        padding-left: 10px;
+        padding-right: 12px;
+    }
+} */

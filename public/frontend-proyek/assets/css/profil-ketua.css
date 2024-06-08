@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+nav .nav-link,
+nav .dropdown-item,
+nav #dropdown,
+nav #home,
+nav #faq {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+    margin-right: 100px;
+}
+
+nav #home:hover,
+nav #dropdown:hover {
+    color: rgb(20, 89, 238);
+}
+
+nav img {
+    margin-left: 30px;
+}
+
+/* profil */
+#header-content {
+    margin-top: 150px;
+}
+
+#header-content .photo-profile img {
+    width: 700px;
+    height: 446px;
+}
+
+#header-content .box-content table {
+    width: 400px;
+    height: 446px;
+    border: 2px solid #333;
+}
+
+#header-content .box-content th,
+#header-content .box-content td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+#header-content .box-content th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#header-content .box-content tr:hover {
+    background-color: rgb(20, 89, 238);
+}
+
+#header-content .box-content ul {
+    list-style-type: none;
+}
+
+th,
+td {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#profile-content .deskripsi {
+    margin-top: 32px;
+}
+
+#profile-content .title-deskripsi h6 {
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#profile-content .garis-deskripsi {
+    width: 1160px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 2px solid #dbd7ce;
+}
+
+#profile-content .text-deskripsi p {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    width: 1160px;
+    text-align: justify;
+}
+
+/* footer */
+#footer .third-title li {
+    color: white;
+}
+
+#footer .footer-down {
+    background-color: #111;
+}
+
+@media screen and (max-width: 480px) {
+    #header-content .photo-profile img {
+        width: 335px;
+        height: 326px;
+        margin-bottom: 30px;
+    }
+
+    #header-content .box-content table {
+        width: 335px;
+        height: 446px;
+        border: 2px solid #333;
+    }
+
+    #profile-content .garis-deskripsi {
+        width: 335px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        border: 2px solid #dbd7ce;
+    }
+
+    #profile-content .text-deskripsi p {
+        font-family: 'poppins', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        width: 335px;
+        text-align: justify;
+    }
+}

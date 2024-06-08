@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+nav .nav-link,
+nav .dropdown-item,
+nav #dropdown,
+nav #home,
+nav #faq {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+    margin-right: 100px;
+}
+
+nav #home:hover,
+nav #dropdown:hover {
+    color: rgb(20, 89, 238);
+}
+
+nav img {
+    margin-left: 30px;
+}
+
+/* peraturan */
+/* header */
+#header-content .foto-peraturan img {
+    margin-left: 210px;
+    width: 700px;
+    height: 446px;
+    margin-top: 150px;
+}
+
+#peraturan-content .bola-voli {
+    margin-top: 32px;
+}
+
+#peraturan-content .title-bola-voli h6 {
+    margin-top: 50px;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#peraturan-content .garis-bola-voli {
+    width: 1160px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 2px solid #dbd7ce;
+}
+
+#peraturan-content .text-bola-voli p {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    width: 1160px;
+    text-align: justify;
+}
+
+#peraturan-content .text-bola-voli ul {
+    list-style-type: decimal;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    width: 1160px;
+    text-align: justify;
+}
+
+#peraturan-content .text-bola-voli p span {
+    font-style: italic;
+}
+
+/* footer */
+#footer .third-title li {
+    color: white;
+}
+
+#footer .footer-down {
+    background-color: #111;
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+nav .nav-link,
+nav .dropdown-item,
+nav #dropdown,
+nav #home,
+nav #faq {
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+    margin-right: 100px;
+}
+
+nav #home:hover,
+nav #dropdown:hover {
+    color: rgb(20, 89, 238);
+}
+
+nav img {
+    margin-left: 20px;
+}
+
+.active {
+    color: rgb(20, 89, 238) !important;
+}
+
+/* atlet */
+#atlet .content-title {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* footer */
+#footer .third-title li {
+    color: white;
+}
+
+#footer .footer-down {
+    background-color: #111;
+}
+
+.btn-to-top {
+    display: inline;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    background: rgb(20, 89, 238);
+}
+
+.btn-to-top i {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.btn-to-top i:hover {
+    color: #111;
+}
+
+@media screen and (max-width: 480px) {
+    #navbar img {
+        margin-left: 5px;
+        width: 75%;
+    }
+
+    nav .nav-link,
+    nav .dropdown-item,
+    nav #dropdown,
+    nav #home,
+    nav #faq {
+        font-family: 'poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        color: black;
+    }
+
+    #atlet .content-title h2 {
+        margin-top: -80px;
+    }
+}
